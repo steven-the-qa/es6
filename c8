@@ -1,0 +1,16 @@
+const realNumberArray = [4, 5.6, -9.8, 3.14, 42, 6, 8.34];
+const squareList = (arr) => {
+  "use strict";
+  // change code below this line
+  const squaredIntegers = arr.filter((num) => (num > 0 && Math.round(num) === num)).map((num) => num*num);
+
+  // change code above this line
+  return squaredIntegers;
+};
+// test your code
+const squaredIntegers = squareList(realNumberArray);
+console.log(squaredIntegers);
+
+//Arrow functions can write complex code using much less space
+//I wrote a function to find the positive integers in the passed-in array and square them with only 1 line of code
+//I used 2 methods and didn't need to return to a new line because of arrow syntax

@@ -1,0 +1,6 @@
+const magic = () => new Date();
+
+//Arrow function syntax creates anonymous functions using shorthand
+//The parentheses represent the function, nameless
+//The arrow points to the body of the function
+//If the function's only purpose is to return a value, no brackets are needed, just the value to be returned

@@ -1,0 +1,13 @@
+let catName;
+let quote;
+function catTalk() {
+  "use strict";
+
+  catName = "Oliver";
+  quote = catName + " says Meow!";
+
+}
+catTalk();
+
+//The 'let' keyword makes sure you can only declare a variable once
+//The 'var' keyword is problematic because it won't throw an error if you declare a variable twice with different values

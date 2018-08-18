@@ -1,0 +1,14 @@
+function checkScope() {
+"use strict";
+  let i = "function scope";
+  if (true) {
+    let i = "block scope";
+    console.log("Block scope i is: ", i);
+  }
+  console.log("Function scope i is: ", i);
+  return i;
+}
+
+//The 'var' keyword declares variables globally, or locally if declared inside a function
+
+//The 'let' keyword limits the scope of a variable to the block, statement, or expression within which it is declared 

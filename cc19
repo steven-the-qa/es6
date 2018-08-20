@@ -1,0 +1,14 @@
+// change code below this line
+const bicycle = {
+  gear: 2,
+  setGear(newGear) {
+    "use strict";
+    this.gear = newGear;
+  }
+};
+// change code above this line
+bicycle.setGear(3);
+console.log(bicycle.gear);
+
+//In ES6 you don't need to use normal object syntax to declare a function in an object like you do in ES5
+//You can just add the function to the list without the function keyword or colon

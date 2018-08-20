@@ -1,0 +1,15 @@
+function getLength(str) {
+  "use strict";
+
+  // change code below this line
+  const {length : len} = str; // change this
+  // change code above this line
+
+  return len; // you must assign length to len in line
+
+}
+
+//'Destructuring Assignment' is a new feature of ES6
+//Destructuring syntax can be used to assign an object's property directly to a variable in 1 line
+//The 'length' property of the passed-in string 'str' is assigned to the new variable 'len'
+//ALL string objects have a built-in length property

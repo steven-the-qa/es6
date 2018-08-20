@@ -1,0 +1,12 @@
+const increment = (function() {
+  "use strict";
+  return function increment(number, value = 1) {
+    return number + value;
+  };
+})();
+console.log(increment(5, 2)); // returns 7
+console.log(increment(5)); // returns NaN
+
+//Default parameters set an original value for an undefined parameter in a function
+//This way when the function returns, there will be at least some defined value if the function has not otherwise set the parameter's value
+//Seems like it might be useful for debugging functions that return undefined

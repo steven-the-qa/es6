@@ -1,0 +1,14 @@
+const createPerson = (name, age, gender) => {
+  "use strict";
+  // change code below this line
+  return {
+    name,
+    age,
+    gender
+  };
+  // change code above this line
+};
+console.log(createPerson("Zodiac Hasbro", 56, "male")); // returns a proper object
+
+//For object literals, or objects with properties that are the same as their values, this new syntax is helpful
+//It lets you declare properties without the redundancy

@@ -1,0 +1,19 @@
+const LOCAL_FORECAST = {
+  today: { min: 72, max: 83 },
+  tomorrow: { min: 73.3, max: 84.6 }
+};
+
+function getMaxOfTmrw(forecast) {
+  "use strict";
+  // change code below this line
+  const { tomorrow : {max : maxOfTomorrow}} = forecast; // change this line
+  // change code above this line
+  return maxOfTomorrow;
+}
+
+console.log(getMaxOfTmrw(LOCAL_FORECAST)); // should be 84.6
+
+//Destructuring assignment can be used to assign properties from nested objects to variables also
+//NOTE TO SELF: If you think you're doing everything right and it's not working for some reason, look for a syntax error .-.
+//I literally stared at this for 5 minutes wondering if I was misunderstanding the concept before I saw I spelled the maxOfTomorrow variable
+like 'maxOfTomrrow' I got so mad

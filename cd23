@@ -1,0 +1,13 @@
+"use strict";
+export const foo = "bar";
+export const bar = "foo";
+
+//Option 2
+const foo = "bar";
+const bar = "foo";
+export { foo, bar };
+
+
+//'export' statements are necessary precursors to effective 'import' statements
+//You put the import statement in the module you want stuff to be imported to
+//You put the export statement in the module you want to export stuff from

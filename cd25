@@ -1,0 +1,5 @@
+"use strict";
+export default function subtract(x,y) {return x - y;}
+
+//This 'export default' syntax is mainly used when you only export 1 value from a file
+//It can't be used with 'var', 'let', or 'const', but using it with a function is okay

@@ -1,0 +1,7 @@
+import { capitalizeString } from "string_functions";
+"use strict";
+capitalizeString("hello!");
+
+//'import' statements let you ditch the old 'require' method that brought in THE WHOLE MODULE to use ANY of its code
+//The new syntax lets you PICK AND CHOOSE what you need from the given module (in this case, the 'capitalizeString' function
+//This is for use in Node.JS

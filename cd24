@@ -1,0 +1,4 @@
+"use strict";
+import * as myObject from "capitalize_strings";
+
+//The 'import * as' syntax lets you import everything from a file into a receiving object in your module

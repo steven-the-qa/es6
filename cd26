@@ -1,0 +1,5 @@
+"use strict";
+import subtract from "math_functions";
+subtract(7,4);
+
+//Importing a default export is pretty easy. You just ditch the curly braces and write the value's name after the import keyword
